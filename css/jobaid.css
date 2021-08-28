@@ -1,0 +1,63 @@
+body {
+	background-color:#5ea7c4;   /* background color */
+	color: #444;          /* text color for the entire page */
+	font-size: 16px;
+	font-family: Helvetica, Geneva, sans-serif;
+}
+
+h1, h2 { 
+	text-align:center;     /* centers h1 and h2 content */
+	color: white;
+}
+
+figcaption {
+	font-size: 8px;	
+}
+
+p {
+	color:black;
+}
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width:900px;
+	margin:0 auto;    /* centers wrapper */
+}
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+
+.img {
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;	
+}
+
+.stepTitle{
+	padding:6px;
+	text-align:center;
+	font-size:26px;
+	background-color:#1e62b1;
+	color: white;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+ }
+
+.stepContent{ 
+	background-color: white;
+	padding:7px;
+	display: flex;
+	justify-content: center;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+}
+
+.stepDescription {
+	width:55%;
+	padding:5px;
+}
+
+.stepImage {
+	width:40%;	
+	padding:5px;
+	text-align: center;
+}
