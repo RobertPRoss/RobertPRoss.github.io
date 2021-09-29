@@ -1,0 +1,142 @@
+body {
+	background-color:#5ea7c4;   /* background color */
+	color: #444;          /* text color for the entire page */
+	font-size: 16px;
+	font-family: Helvetica, Geneva, sans-serif;
+	opacity: 1;
+}
+
+#background {
+	background: url(../img/pug.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;	
+}
+
+.cells {
+	border: black 5px solid;
+	border-radius: 50%;
+}
+
+.cells:hover {
+	transform: scale(1.05);
+}
+#dog {
+	border: black 5px solid;
+	position: relative;
+}
+
+#nose {
+	display: none;
+	border: black 5px solid;
+}
+
+.backgroundopacity {
+	background-color: black;
+	opacity: 0.5;
+	position: fixed;
+	top: -10px;
+	left: 0px;
+	height: calc(100% + 10px); 
+	width: 100%;
+	z-index: -1;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+	text-shadow: 2px 2px white;
+}
+
+a:hover {
+	text-shadow: 2px 2px orange;
+}
+
+a:visited {
+	color: darkslategray;
+	text-shadow: 2px 2px white;
+}
+	
+h1{ 
+	text-align:center;
+	color: blanchedalmond;
+	text-shadow: 5px 5px black;
+}
+
+h2 {
+	font-size: 32px;
+	text-align:center;
+	color: blanchedalmond;
+	text-shadow: 2px 2px black;
+}
+
+.boxedtext {
+	max-width: 600px;
+	text-shadow: 0 1px white;
+	background-color: #98d8ff;
+	border: 3px solid white;
+	border-radius: 10px 10px 10px 10px;
+	padding: 15px 15px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.spacer {
+	margin-top: 50px
+}
+
+#dog:hover {
+	transform: scale(1.05);
+}
+
+#colors:hover {
+	background-color: #5ea7c4;
+}
+
+#smell {
+	display: none;
+}
+
+a.link {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 64px;
+}
+
+iframe {
+	align-content: center;
+}
+
+figcaption {
+	font-size: 8px;	
+}
+
+footer {
+	text-align: center;
+}
+
+p {
+	color:black;
+	font-size: 24px;
+}
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+
+.img {
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;	
+}
+
+.choices {
+	cursor: pointer;
+	}
+	

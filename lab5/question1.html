@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lab 5 - Robert Ross</title>
+        <link href="css/lab5css.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+          $( function(){
+          $("#dog").click( function(){
+          $("#nose").css("display","inline");
+          $("#answer").html("<p>Nobody nose.</p>");
+          $("#dog").css("display","none");
+          $("#hint").css("display","none");
+          $("#smell").css("display","inline");
+          });
+          });
+          </script>          
+    </head>
+    <body id="background">
+      <div class="backgroundopacity">
+      </div>
+        <div class="container">
+
+            <div class="about">
+
+              <div id="wrapper">
+
+                <div id="gohome">
+                  <a href="question2.html"><p>FACTS</p></a>
+                </div>
+ 
+                <h1>Sustainable Dog Foraging</h1>
+                 
+                <div class="boxedtext">
+                  <p id="hint">What is sustainable dog foraging?<br><br><strong>Click</strong> the dog below to find out.</p>
+                  <div id="answer"></div>
+                </div>
+                 
+                <div class="scale">
+                  <img id="dog" src="img/dog.jpg"/>
+                </div>
+                 
+                <img id="nose" src="img/nose.jpg"/>
+
+                <div class="spacer"></div>
+
+                <div id="smell">
+                  <a href="question2.html">
+                    <div class="boxedtext" id="colors">
+                      <p>But I smell some FACTS! <strong>Click me!</strong></p>
+                    </div>
+                  </a>
+                </div>
+                 
+                </div> <!-- closing  “wrapper” -->
+ 
+              <footer>2021 -- Robert Ross -- IST541</footer>
+            </div>
+    <body>
+</html>
