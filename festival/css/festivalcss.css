@@ -1,0 +1,150 @@
+body {
+	background-color:#5ea7c4;   /* background color */
+	color: #444;          /* text color for the entire page */
+	font-size: 16px;
+	font-family: Helvetica, Geneva, sans-serif;
+	opacity: 1;
+}
+
+#background {
+	background: url(../img/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;	
+}
+
+.cells {
+	border: black 5px solid;
+	border-radius: 50%;
+}
+
+#robert {
+	width: 250px;
+	height: 300px;
+	border-radius: 50px;
+	border: 4px solid black;
+}
+
+#description {
+	margin-left: 50%;
+}
+
+.cells:hover {
+	transform: scale(1.05);
+}
+
+.backgroundopacity {
+	background-color: black;
+	opacity: 0.25;
+	position: fixed;
+	top: -10px;
+	left: 0px;
+	height: calc(100% + 10px); 
+	width: 100%;
+	z-index: -1;
+}
+
+a.h3:link {
+	text-decoration: none;
+	text-align: center;
+	text-shadow: 2px 2px blanchedalmond;
+}
+
+a {
+	text-decoration: none;
+}
+
+h3:hover {
+	text-shadow: 2px 2px blanchedalmond;
+	color: black;
+}
+
+a p:hover {
+	text-shadow: 2px 2px blanchedalmond;
+	color: black;
+}
+	
+h1 { 
+	font-size: 42px;
+	text-align:center;
+	color: blanchedalmond;
+	text-shadow: 3px 3px black;
+}
+
+h2 {
+	font-size: 26px;
+	text-align: left;
+	color: blanchedalmond;
+	text-shadow: 2px 2px black;
+}
+
+h3 {
+	font-size: 20px;
+	text-align: center;
+	color: blanchedalmond;
+	text-shadow: 2px 2px black;
+}
+
+li {
+	color: black;
+	text-align: left;
+	font-size: 16px;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+
+#lineup {
+	width: 50%;
+	float: left;
+}
+
+.spacer {
+	margin-top: 50px
+}
+
+a.link {
+	text-decoration: none;
+}
+
+iframe {
+	align-content: center;
+	border: 4px solid black;
+	border-radius: 5px;
+}
+
+footer {
+	text-align: center;
+}
+
+p {
+	color:black;
+	font-size: 20px;
+	text-align: left;
+}
+
+hr {
+	border: 2px dotted;
+	border-style: none none dotted;
+	color: black;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#intro.p {
+	text-align: center;
+}
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+
+.img {
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;	
+}
+	
