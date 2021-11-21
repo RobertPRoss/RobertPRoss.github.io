@@ -51,9 +51,10 @@ body {
 	z-index: -1;
 }
 
-a.h3:link {
+a h3:link {
 	text-decoration: none;
 	text-align: center;
+	color: black;
 	text-shadow: 2px 2px blanchedalmond;
 }
 
@@ -69,6 +70,11 @@ h3:hover {
 a p:hover {
 	text-shadow: 2px 2px blanchedalmond;
 	color: black;
+}
+
+a p {
+	color: black;
+	text-shadow: 1px 1px white;
 }
 	
 h1 { 
@@ -88,8 +94,8 @@ h2 {
 h3 {
 	font-size: 20px;
 	text-align: center;
-	color: blanchedalmond;
-	text-shadow: 2px 2px black;
+	color: rgb(130, 204, 188);
+	text-shadow: 1.5px 1.5px black;
 }
 
 li {
